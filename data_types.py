@@ -1,0 +1,1 @@
+chest = {"baby": "ball","kid": "a real diamond","teen": "arrow/ speaar","teacher": "stick of butter","president": "ball","mechanic": "a real diamond"}
