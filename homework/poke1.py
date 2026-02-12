@@ -6,19 +6,18 @@ import requests
 api_link = "https://pokeapi.co/api/v2/pokemon/pikachu"
 
 #3.make another variable to save what our butler(requests) has gotten from the link(url)
-resonse = requests.get(api_link)
-
+response = requests.get(api_link)
 #4.we get the content of resonse and get the json function
-jsondata = resonse.json()
+jsondata = response.json()
 # content.getTheInfoPart()
 
 #ASSINGMENT: print out the name, id and height
 
 #Name
-print()
+print(jsondata["name"])
 
 #Id
-print()
+print(jsondata["base_experience"])
 
 #Height
-print()
+print(jsondata["height"])
